@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+
+  <style>
+    :root{
+      --akbank-red:#d4002a;
+      --text-dark:#111;
+      --text-muted:#555;
+      --line:#e6e6e6;
+    }
+    .bg{fill:#ffffff;}
+    .title{fill:var(--akbank-red);font-size:20px;font-weight:700;font-family:Arial,Helvetica,sans-serif;}
+    .status{fill:var(--akbank-red);font-size:16px;font-weight:700;font-family:Arial,Helvetica,sans-serif;}
+    .label{fill:var(--text-muted);font-size:12px;font-family:Arial,Helvetica,sans-serif;}
+    .value{fill:var(--text-dark);font-size:14px;font-family:Arial,Helvetica,sans-serif;}
+    .divider{stroke:var(--line);stroke-width:1;}
+    .logo{fill:var(--akbank-red);font-size:18px;font-weight:800;letter-spacing:1px;font-family:Arial Black,Arial,Helvetica,sans-serif;}
+    .foot{fill:#666;font-size:11px;font-family:Arial,Helvetica,sans-serif;}
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="360" height="640" class="bg"/>
+
+  <!-- Header -->
+  <text x="180" y="45" text-anchor="middle" class="title">
+    Akbank – Ödeme Bilgilendirmesi
+  </text>
+
+  <line x1="20" y1="70" x2="340" y2="70" class="divider"/>
+
+  <!-- Content -->
+  <text x="20" y="110" class="label">Alıcı Kurum</text>
+  <text x="20" y="130" class="value">T.C. HAZİNE VE MALİYE BAKANLIĞI</text>
+
+  <text x="20" y="165" class="label">Vergi Dairesi</text>
+  <text x="20" y="185" class="value">İnegöl Vergi Dairesi Müdürlüğü</text>
+
+  <text x="20" y="220" class="label">Ödeme Türü</text>
+  <text x="20" y="240" class="value">İdari Para Cezası (7258 / 5-D)</text>
+
+  <text x="20" y="275" class="label">Borçlu (TCKN)</text>
+  <text x="20" y="295" class="value">10726922920</text>
+
+  <text x="20" y="330" class="label">Tutar</text>
+  <text x="20" y="350" class="value">295.000,00 TL</text>
+
+  <text x="20" y="385" class="label">İşlem Tarihi</text>
+  <text x="20" y="405" class="value">20.10.2025 – 19:37</text>
+
+  <!-- STATUS ARTIK BURADA -->
+  <text x="20" y="440" class="label">İşlem Durumu</text>
+  <text x="20" y="462" class="status">TAHSİL EDİLDİ</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="500" x2="340" y2="500" class="divider"/>
+
+  <text x="20" y="530" class="logo">AKBANK</text>
+  <text x="20" y="550" class="foot">Müşteri İletişim Merkezi: 444 2 525</text>
+  <text x="20" y="568" class="foot">www.akbank.com</text>
+
+  <text x="180" y="610" text-anchor="middle" class="foot">
+    Bu görsel bilgilendirme amaçlıdır.
+  </text>
+
+</svg>
